@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Ahmed Yasser | AI for Business Enthusiast & Computer Science Student</title>
+  <meta name="title" content="Ahmed Yasser | AI for Business Enthusiast & Computer Science Student">
+  <meta name="description" content="Personal portfolio of Ahmed Yasser, a Computer Science student at Zagazig University and AI for Business Trainee at NTI passionate about Artificial Intelligence, Machine Learning, and data-driven business solutions.">
+  <meta name="keywords" content="Ahmed Yasser, AI for Business, Machine Learning, Computer Science, Data Analysis, Portfolio, Zagazig University, NTI, Sentinel Shield">
+  <meta name="author" content="Ahmed Yasser">
+  
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ahmed Yasser | AI for Business Enthusiast & Computer Science Student">
+  <meta property="og:description" content="Passionate about Artificial Intelligence, Machine Learning, and technology-driven business solutions. Explore my projects, skills, education, and experience.">
+  <meta property="og:image" content="assets/images/profile.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ahmed Yasser | AI for Business Enthusiast & Computer Science Student">
+  <meta name="twitter:description" content="Passionate about Artificial Intelligence, Machine Learning, and technology-driven business solutions.">
+  <meta name="twitter:image" content="assets/images/profile.jpg">
+
+  <!-- Favicon (Inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23091540'/><path d='M30 75 L50 25 L70 75 M37 58 L63 58' stroke='%2300D4FF' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' fill='none'/><circle cx='50' cy='25' r='5' fill='%231B2CC1'/></svg>">
+
+  <!-- Preconnect to fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Ambient Cursor Glow Effect -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Ahmed Yasser Portfolio Home">
+        <span class="brand-bracket">&lt;</span>
+        <span class="brand-text">Ahmed<span class="brand-highlight">.Y</span></span>
+        <span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#feedback" class="nav-link">Feedback</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-link-cta">Get In Touch</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Switcher & Mobile Toggle) -->
+      <div class="nav-actions">
+        <!-- Theme Switcher Button -->
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch between Dark and Light mode" title="Toggle Theme">
+          <span class="theme-icon sun-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button type="button" class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true"></div>
+
+  <main id="main-content">
+    <!-- ==============================================
+         1. HOME (HERO SECTION)
+         ============================================== -->
+    <section id="home" class="hero-section section">
+      <div class="hero-bg-elements" aria-hidden="true">
+        <div class="hero-blob blob-1"></div>
+        <div class="hero-blob blob-2"></div>
+        <div class="hero-grid-pattern"></div>
+      </div>
+
+      <div class="container hero-container">
+        <!-- Hero Left Side -->
+        <div class="hero-content reveal-left">
+          <div class="hero-status-pill">
+            <span class="status-indicator"></span>
+            <span class="status-text">Available for Opportunities & Collaboration</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Ahmed Yasser</span>
+          </h1>
+
+          <div class="hero-typewriter-container" aria-label="Professional titles">
+            <span class="typewriter-prefix">I am a </span>
+            <span class="typewriter-text" id="typewriterText">AI for Business Enthusiast</span>
+            <span class="typewriter-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-description">
+            I am a Computer Science student passionate about Artificial Intelligence, Machine Learning, and technology-driven business solutions. I enjoy transforming data into meaningful insights and building intelligent solutions to real-world problems.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary magnetic-btn">
+              <span>View My Projects</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline magnetic-btn">
+              <span>Contact Me</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Dedicated Experience/Highlight Area -->
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <span class="highlight-title">Zagazig University</span>
+                <span class="highlight-sub">Computer Science Student</span>
+              </div>
+            </div>
+
+            <div class="highlight-divider"></div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <span class="highlight-title">NTI Trainee</span>
+                <span class="highlight-sub">AI for Business Program</span>
+              </div>
+            </div>
+
+            <div class="highlight-divider"></div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                  <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                  <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <span class="highlight-title">Applied ML</span>
+                <span class="highlight-sub">Predictive Modeling & Insights</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Side: Profile Image Frame -->
+        <div class="hero-visual reveal-right">
+          <div class="profile-card-wrapper">
+            <!-- Glowing Orbiting Rings -->
+            <div class="orbit-ring orbit-ring-outer" aria-hidden="true"></div>
+            <div class="orbit-ring orbit-ring-inner" aria-hidden="true"></div>
+
+            <!-- Profile Frame -->
+            <div class="profile-frame">
+              <div class="profile-glow" aria-hidden="true"></div>
+              <div class="profile-img-container">
+                <img 
+                  src="assets/profile.jpg" 
+                  alt="Ahmed Yasser - AI for Business Enthusiast & Computer Science Student" 
+                  class="profile-img"
+                  loading="eager"
+                  width="400"
+                  height="400"
+                >
+              </div>
+            </div>
+
+            <!-- Floating Badge 1: Top Left -->
+            <div class="floating-badge badge-top-left" aria-hidden="true">
+              <div class="badge-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div class="badge-meta">
+                <span class="badge-title">AI for Business</span>
+                <span class="badge-caption">Value-Driven Solutions</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: Bottom Right -->
+            <div class="floating-badge badge-bottom-right" aria-hidden="true">
+              <div class="badge-icon-box cyan-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="badge-meta">
+                <span class="badge-title">Computer Science</span>
+                <span class="badge-caption">CS Student @ Zagazig</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         2. ABOUT SECTION
+         ============================================== -->
+    <section id="about" class="about-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging AI Innovation & Business Value</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Exploring how intelligent algorithms solve real-world industry challenges and automate smarter decision-making.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Professional Narrative -->
+          <div class="about-content reveal-left">
+            <h3 class="about-heading">Transforming Data into Strategic Advantages</h3>
+            
+            <p class="about-text">
+              I am a dedicated Computer Science student at Zagazig University with a focused interest in <strong>AI for Business</strong>. I focus on understanding how Artificial Intelligence can help businesses solve complex problems, analyze multifaceted data, improve strategic decision-making, and automate repetitive operational processes.
+            </p>
+
+            <p class="about-text">
+              By combining strong Computer Science fundamentals—such as algorithms, data structures, and object-oriented architecture—with practical Machine Learning techniques, I strive to design software and analytical workflows that are both robust and value-driven.
+            </p>
+
+            <div class="about-key-interests">
+              <h4 class="interests-title">Core Areas of Interest:</h4>
+              <div class="interests-grid">
+                <div class="interest-chip">
+                  <span class="interest-bullet"></span>
+                  <span>Artificial Intelligence</span>
+                </div>
+                <div class="interest-chip">
+                  <span class="interest-bullet"></span>
+                  <span>Machine Learning</span>
+                </div>
+                <div class="interest-chip">
+                  <span class="interest-bullet"></span>
+                  <span>Data Analysis</span>
+                </div>
+                <div class="interest-chip">
+                  <span class="interest-bullet"></span>
+                  <span>Business Intelligence</span>
+                </div>
+                <div class="interest-chip">
+                  <span class="interest-bullet"></span>
+                  <span>Intelligent Business Solutions</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Philosophy Callout -->
+            <div class="about-quote-card">
+              <div class="quote-icon">“</div>
+              <p class="quote-text">
+                "The real power of Artificial Intelligence lies in its practical application: turning raw data streams into actionable intelligence that drives sustainable business growth."
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Abstract Technology Visual -->
+          <div class="about-visual reveal-right">
+            <div class="tech-graphic-card">
+              <div class="tech-card-header">
+                <div class="terminal-dots">
+                  <span class="dot dot-red"></span>
+                  <span class="dot dot-yellow"></span>
+                  <span class="dot dot-green"></span>
+                </div>
+                <span class="tech-header-title">ai_business_engine.py</span>
+                <span class="tech-badge">Live System Flow</span>
+              </div>
+
+              <!-- Interactive / Animated SVG Neural Network & Business Architecture Visual -->
+              <div class="tech-graphic-container">
+                <svg class="tech-svg" viewBox="0 0 500 380" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Abstract AI and Business Intelligence Architecture">
+                  <defs>
+                    <linearGradient id="gradCyanBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#00D4FF" />
+                      <stop offset="100%" stop-color="#1B2CC1" />
+                    </linearGradient>
+                    <linearGradient id="gradPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#6366F1" />
+                      <stop offset="100%" stop-color="#201658" />
+                    </linearGradient>
+                    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+                      <feGaussianBlur stdDeviation="4" result="blur" />
+                      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                    </filter>
+                  </defs>
+
+                  <!-- Background Grid Lines -->
+                  <g class="svg-grid" stroke="rgba(255,255,255,0.06)" stroke-width="1">
+                    <line x1="50" y1="0" x2="50" y2="380" />
+                    <line x1="150" y1="0" x2="150" y2="380" />
+                    <line x1="250" y1="0" x2="250" y2="380" />
+                    <line x1="350" y1="0" x2="350" y2="380" />
+                    <line x1="450" y1="0" x2="450" y2="380" />
+                    <line x1="0" y1="95" x2="500" y2="95" />
+                    <line x1="0" y1="190" x2="500" y2="190" />
+                    <line x1="0" y1="285" x2="500" y2="285" />
+                  </g>
+
+                  <!-- Network Connectors -->
+                  <g class="svg-connections" stroke="rgba(0, 212, 255, 0.35)" stroke-width="1.8" stroke-dasharray="4 4">
+                    <!-- Layer 1 to Layer 2 -->
+                    <line x1="80" y1="90" x2="200" y2="120" />
+                    <line x1="80" y1="190" x2="200" y2="120" />
+                    <line x1="80" y1="190" x2="200" y2="220" />
+                    <line x1="80" y1="290" x2="200" y2="220" />
+                    <!-- Layer 2 to Layer 3 -->
+                    <line x1="200" y1="120" x2="320" y2="100" />
+                    <line x1="200" y1="120" x2="320" y2="190" />
+                    <line x1="200" y1="220" x2="320" y2="190" />
+                    <line x1="200" y1="220" x2="320" y2="280" />
+                    <!-- Layer 3 to Output -->
+                    <line x1="320" y1="100" x2="430" y2="150" stroke="#00D4FF" stroke-width="2.2" stroke-dasharray="none" filter="url(#glowFilter)" />
+                    <line x1="320" y1="190" x2="430" y2="190" stroke="#00D4FF" stroke-width="2.2" stroke-dasharray="none" filter="url(#glowFilter)" />
+                    <line x1="320" y1="280" x2="430" y2="230" stroke="#00D4FF" stroke-width="2.2" stroke-dasharray="none" filter="url(#glowFilter)" />
+                  </g>
+
+                  <!-- Input Layer Nodes -->
+                  <g class="svg-layer layer-input">
+                    <circle cx="80" cy="90" r="18" fill="#101D4A" stroke="#1B2CC1" stroke-width="3" />
+                    <text x="80" y="94" font-size="9" fill="#00D4FF" font-family="'JetBrains Mono', monospace" text-anchor="middle">DATA</text>
+
+                    <circle cx="80" cy="190" r="18" fill="#101D4A" stroke="#1B2CC1" stroke-width="3" />
+                    <text x="80" y="194" font-size="9" fill="#00D4FF" font-family="'JetBrains Mono', monospace" text-anchor="middle">STATS</text>
+
+                    <circle cx="80" cy="290" r="18" fill="#101D4A" stroke="#1B2CC1" stroke-width="3" />
+                    <text x="80" y="294" font-size="9" fill="#00D4FF" font-family="'JetBrains Mono', monospace" text-anchor="middle">FLOW</text>
+                  </g>
+
+                  <!-- Hidden Processing Layer -->
+                  <g class="svg-layer layer-processing">
+                    <circle cx="200" cy="120" r="22" fill="#1B2CC1" stroke="#00D4FF" stroke-width="2" filter="url(#glowFilter)" />
+                    <text x="200" y="124" font-size="9" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" text-anchor="middle">ML_MOD</text>
+
+                    <circle cx="200" cy="220" r="22" fill="#201658" stroke="#6366F1" stroke-width="2" />
+                    <text x="200" y="224" font-size="9" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" text-anchor="middle">ANALYT</text>
+                  </g>
+
+                  <!-- Deep Representation Layer -->
+                  <g class="svg-layer layer-deep">
+                    <circle cx="320" cy="100" r="16" fill="#101D4A" stroke="#00D4FF" stroke-width="2" />
+                    <circle cx="320" cy="190" r="20" fill="#1B2CC1" stroke="#00D4FF" stroke-width="2.5" filter="url(#glowFilter)" />
+                    <text x="320" y="194" font-size="9" fill="#FFFFFF" font-family="'JetBrains Mono', monospace" text-anchor="middle">INFER</text>
+                    <circle cx="320" cy="280" r="16" fill="#101D4A" stroke="#6366F1" stroke-width="2" />
+                  </g>
+
+                  <!-- Business Output Layer -->
+                  <g class="svg-layer layer-output">
+                    <rect x="400" y="130" width="75" height="120" rx="8" fill="#091540" stroke="#00D4FF" stroke-width="2" filter="url(#glowFilter)" />
+                    <text x="437" y="155" font-size="9" fill="#00D4FF" font-weight="bold" font-family="'JetBrains Mono', monospace" text-anchor="middle">DECISION</text>
+                    <line x1="410" y1="165" x2="465" y2="165" stroke="rgba(255,255,255,0.2)" stroke-width="1" />
+                    <text x="437" y="185" font-size="8" fill="#94A3B8" font-family="'JetBrains Mono', monospace" text-anchor="middle">Optimize</text>
+                    <text x="437" y="205" font-size="8" fill="#94A3B8" font-family="'JetBrains Mono', monospace" text-anchor="middle">Automate</text>
+                    <text x="437" y="225" font-size="8" fill="#48BB78" font-weight="bold" font-family="'JetBrains Mono', monospace" text-anchor="middle">+ VALUE</text>
+                  </g>
+                </svg>
+              </div>
+
+              <!-- Metrics bar -->
+              <div class="tech-card-footer">
+                <div class="footer-stat">
+                  <span class="stat-name">Pipeline</span>
+                  <span class="stat-value">End-to-End</span>
+                </div>
+                <div class="footer-stat">
+                  <span class="stat-name">Domain</span>
+                  <span class="stat-value">Business Intelligence</span>
+                </div>
+                <div class="footer-stat">
+                  <span class="stat-name">Methodology</span>
+                  <span class="stat-value">Data-Driven</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         3. EDUCATION SECTION
+         ============================================== -->
+    <section id="education" class="education-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">Education</span>
+          <h2 class="section-title">Academic Journey</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Solid foundations in computer science principles, algorithms, and computational theory.
+          </p>
+        </div>
+
+        <div class="education-timeline-wrapper reveal-up">
+          <div class="education-timeline-line" aria-hidden="true"></div>
+
+          <!-- Education Card -->
+          <div class="education-card">
+            <div class="education-badge-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+
+            <div class="education-card-body">
+              <div class="education-header-meta">
+                <div class="education-titles">
+                  <span class="degree-badge">Bachelor's Degree in Computer Science</span>
+                  <h3 class="institution-name">Faculty of Computers and Information</h3>
+                  <h4 class="university-name">Zagazig University</h4>
+                </div>
+
+                <div class="status-grade-box">
+                  <div class="status-chip current-study">
+                    <span class="pulse-dot"></span>
+                    <span>Currently Studying</span>
+                  </div>
+                  <div class="grade-chip">
+                    <span class="grade-label">Latest Academic Grade:</span>
+                    <strong class="grade-value">Very Good</strong>
+                  </div>
+                </div>
+              </div>
+
+              <div class="education-details">
+                <p class="education-desc">
+                  Pursuing a comprehensive curriculum encompassing core computer science foundations, algorithm design, software architecture, mathematical modeling, and operating systems.
+                </p>
+
+                <div class="academic-focus-pills">
+                  <span class="focus-pill">Algorithms &amp; Data Structures</span>
+                  <span class="focus-pill">Object-Oriented Programming</span>
+                  <span class="focus-pill">Database Systems</span>
+                  <span class="focus-pill">Computer Graphics</span>
+                  <span class="focus-pill">Operating Systems</span>
+                  <span class="focus-pill">Systems Analysis</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         4. EXPERIENCE SECTION
+         ============================================== -->
+    <section id="experience" class="experience-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">Experience</span>
+          <h2 class="section-title">Professional Training</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Hands-on technical development and applied learning in corporate and business AI environments.
+          </p>
+        </div>
+
+        <div class="experience-timeline-wrapper reveal-up">
+          <div class="timeline-track" aria-hidden="true"></div>
+
+          <!-- NTI Experience Card -->
+          <div class="experience-card">
+            <div class="experience-node" aria-hidden="true">
+              <span class="node-ring"></span>
+              <span class="node-core"></span>
+            </div>
+
+            <div class="experience-card-inner">
+              <div class="experience-header">
+                <div class="org-identity">
+                  <div class="org-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="role-title">AI for Business Trainee</h3>
+                    <h4 class="org-name">National Telecommunication Institute (NTI)</h4>
+                    <span class="program-tag">Program: AI for Business</span>
+                  </div>
+                </div>
+                <div class="trainee-badge">
+                  <span>Professional Training</span>
+                </div>
+              </div>
+
+              <div class="experience-body">
+                <p class="experience-description">
+                  Developing practical knowledge of Artificial Intelligence and Machine Learning applications in business environments. Learning how to analyze data, build predictive models, and use AI technologies to solve real-world business challenges.
+                </p>
+
+                <div class="learning-areas-box">
+                  <h5 class="learning-heading">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    Relevant Learning Areas:
+                  </h5>
+                  <div class="learning-tags">
+                    <span class="tag-item">Python for Data Science</span>
+                    <span class="tag-item">Data Analysis</span>
+                    <span class="tag-item">Machine Learning</span>
+                    <span class="tag-item">Supervised &amp; Unsupervised Learning</span>
+                    <span class="tag-item">Deep Learning Fundamentals</span>
+                    <span class="tag-item">AI Business Applications</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         5. SKILLS SECTION
+         ============================================== -->
+    <section id="skills" class="skills-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">Technical Skills</span>
+          <h2 class="section-title">Knowledge &amp; Competencies</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Systematic understanding of core computer science fundamentals, programming languages, and AI concepts.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card reveal-up" data-delay="100">
+            <div class="category-header">
+              <div class="category-icon prog-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Programming</h3>
+                <span class="category-count">2 Core Languages</span>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <!-- C++ -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <div class="skill-logo cpp-color">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M11.5 3a9.5 9.5 0 0 0-9.5 9.5 9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 8.35-4.99l-2.61-1.51A6.5 6.5 0 1 1 18 12.5h3A9.5 9.5 0 0 0 11.5 3zm6.5 7v2h-2v1h2v2h1v-2h2v-1h-2v-2h-1zm5 0v2h-2v1h2v2h1v-2h2v-1h-2v-2h-1z"/>
+                    </svg>
+                  </div>
+                  <div class="skill-text-info">
+                    <span class="skill-name">C++</span>
+                    <span class="skill-scope">OOP &amp; Problem Solving</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Python -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <div class="skill-logo py-color">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2c-3.1 0-5.1.7-5.1 2.3v2.4h5.1v.8H5.1C2.5 7.5 1 9.3 1 12.2c0 2.9 1.6 4.6 4.1 4.6h1.5v-2.2c0-1.7 1.4-3.1 3.1-3.1h5.1c1.4 0 2.5-1.1 2.5-2.5V4.3C17.3 2.7 15.3 2 12 2zm-1.8 1.6c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9zm1.8 18.4c3.1 0 5.1-.7 5.1-2.3v-2.4h-5.1v-.8h6.9c2.6 0 4.1-1.8 4.1-4.7 0-2.9-1.6-4.6-4.1-4.6h-1.5v2.2c0 1.7-1.4 3.1-3.1 3.1H9.2c-1.4 0-2.5 1.1-2.5 2.5v4.7c0 1.6 2 2.3 5.3 2.3zm1.8-1.6c-.5 0-.9-.4-.9-.9s.4-.9.9-.9.9.4.9.9-.4.9-.9.9z"/>
+                    </svg>
+                  </div>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Python</span>
+                    <span class="skill-scope">Data Science &amp; ML</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Computer Science Fundamentals -->
+          <div class="skill-category-card reveal-up" data-delay="200">
+            <div class="category-header">
+              <div class="category-icon cs-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">CS Fundamentals</h3>
+                <span class="category-count">7 Theoretical &amp; Practical Areas</span>
+              </div>
+            </div>
+
+            <div class="skill-items-list compact-list">
+              <!-- OOP -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <span class="cs-bullet-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  </span>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Object-Oriented Programming (OOP)</span>
+                    <span class="skill-scope">Encapsulation, Inheritance, Polymorphism</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Data Structures -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <span class="cs-bullet-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 14 10 14 10 20"></polyline><polyline points="20 10 14 10 14 4"></polyline><line x1="14" y1="10" x2="21" y2="3"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+                  </span>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Data Structures</span>
+                    <span class="skill-scope">Arrays, Trees, Graphs, Stacks &amp; Queues</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Operating Systems -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <span class="cs-bullet-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  </span>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Operating Systems</span>
+                    <span class="skill-scope">Process Scheduling, Memory &amp; Concurrency</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Computer Graphics -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <span class="cs-bullet-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                  </span>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Computer Graphics</span>
+                    <span class="skill-scope">Rendering Concepts &amp; Visual Computing</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Networking -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <span class="cs-bullet-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                  </span>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Networking</span>
+                    <span class="skill-scope">Protocols, Topologies &amp; Client-Server Architecture</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Database Systems -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <span class="cs-bullet-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                  </span>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Database Systems</span>
+                    <span class="skill-scope">Relational Modeling, SQL &amp; Normalization</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Systems Analysis -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <span class="cs-bullet-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                  </span>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Systems Analysis</span>
+                    <span class="skill-scope">System Lifecycle, Requirements &amp; Architecture</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Artificial Intelligence -->
+          <div class="skill-category-card reveal-up" data-delay="300">
+            <div class="category-header">
+              <div class="category-icon ai-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L15 15h3a4 4 0 0 1 4 4v3H2v-3a4 4 0 0 1 4-4h3l2.25-5.07C9.4 9.58 8 7.95 8 6a4 4 0 0 1 4-4z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Artificial Intelligence</h3>
+                <span class="category-count">3 Applied Domains</span>
+              </div>
+            </div>
+
+            <div class="skill-items-list">
+              <!-- Artificial Intelligence (AI) -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <div class="skill-logo ai-brand-color">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Artificial Intelligence (AI)</span>
+                    <span class="skill-scope">Intelligent Agents &amp; Search Heuristics</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Machine Learning -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <div class="skill-logo ml-brand-color">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <line x1="6" y1="3" x2="6" y2="15"></line>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <path d="M18 9a9 9 0 0 1-9 9"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-text-info">
+                    <span class="skill-name">Machine Learning</span>
+                    <span class="skill-scope">Predictive Models &amp; Pattern Recognition</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- AI for Business -->
+              <div class="skill-item-card">
+                <div class="skill-item-header">
+                  <div class="skill-logo biz-brand-color">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                      <path d="M8 21h8"></path>
+                      <path d="M12 17v4"></path>
+                      <path d="m7 10 3 3 7-7"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-text-info">
+                    <span class="skill-name">AI for Business</span>
+                    <span class="skill-scope">Process Automation &amp; Business Intelligence</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         6. PROJECTS SECTION
+         ============================================== -->
+    <section id="projects" class="projects-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">Featured Projects</span>
+          <h2 class="section-title">Showcase Project</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Demonstrating applied machine learning, financial security concepts, and predictive analytics.
+          </p>
+        </div>
+
+        <div class="featured-project-container reveal-up">
+          <div class="project-card">
+            <!-- Project Image Container with Hover Zoom & Overlay -->
+            <div class="project-image-box">
+              <div class="project-overlay">
+                <div class="overlay-tag">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="tag-svg">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  </svg>
+                  <span>AI Security Architecture</span>
+                </div>
+              </div>
+              <img 
+                src="assets/1.jpg" 
+                alt="Sentinel Shield – Financial Fraud Detection System" 
+                class="project-img"
+                loading="lazy"
+                width="600"
+                height="350"
+              >
+            </div>
+
+            <!-- Project Content -->
+            <div class="project-content">
+              <div class="project-category-badge">Financial Intelligence &bull; Machine Learning</div>
+              
+              <h3 class="project-title">Sentinel Shield – Financial Fraud Detection System</h3>
+              
+              <p class="project-description">
+                An intelligent banking fraud detection system designed to identify suspicious financial transactions using data analysis and machine learning techniques. The system aims to distinguish between legitimate and potentially fraudulent transactions to support safer financial operations.
+              </p>
+
+              <!-- Technologies List -->
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">Data Analysis</span>
+                <span class="tech-tag">Artificial Intelligence</span>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="project-actions">
+                <!-- View Project Button (opens architectural overview modal) -->
+                <button type="button" class="btn btn-primary btn-sm" id="viewProjectBtn" aria-haspopup="dialog" aria-controls="projectModal">
+                  <span>View Project</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                    <circle cx="12" cy="12" r="3"></circle>
+                  </svg>
+                </button>
+
+                <!-- GitHub Button (Direct link to user GitHub profile / repo) -->
+                <a href="https://github.com/sonic2005-coder" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <span>GitHub</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sentinel Shield Project Details Modal -->
+    <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+      <div class="modal-window">
+        <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close project modal">&times;</button>
+        <div class="modal-header">
+          <span class="modal-tag">Architecture Overview</span>
+          <h3 id="modalTitle" class="modal-title">Sentinel Shield – System Architecture</h3>
+        </div>
+        <div class="modal-body">
+          <p class="modal-text">
+            <strong>Sentinel Shield</strong> was conceived to address the critical business threat of financial fraud in high-volume transaction environments.
+          </p>
+          <ul class="modal-features-list">
+            <li><strong>Data Preprocessing:</strong> Normalized transaction amounts, frequency metrics, and categorical account behaviors.</li>
+            <li><strong>Class Imbalance Handling:</strong> Addressed highly skewed transaction datasets typical of real-world banking fraud.</li>
+            <li><strong>Model Evaluation:</strong> Evaluated using Precision, Recall, and AUC-ROC curves to minimize false positives while detecting suspicious outliers.</li>
+            <li><strong>Business Value:</strong> Translates raw anomaly scores into risk flags to protect institutional and customer assets.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/sonic2005-coder" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+            Visit GitHub Profile
+          </a>
+          <button type="button" class="btn btn-primary btn-sm" id="modalDismissBtn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==============================================
+         7. FEEDBACK SECTION
+         ============================================== -->
+    <section id="feedback" class="feedback-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">What People Say</span>
+          <h2 class="section-title">Testimonials &amp; Feedback</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Feedback and observations from academic mentors, instructors, and collaboration peers.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Card 1: Academic Supervisor Placeholder -->
+          <div class="testimonial-card reveal-up" data-delay="100">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+            </div>
+
+            <div class="rating-stars" aria-label="5 out of 5 stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+
+            <p class="testimonial-quote">
+              "Ahmed demonstrates exceptional analytical curiosity and a solid grasp of core computer science fundamentals. His dedication to learning machine learning algorithms and applying them toward business use-cases is commendable."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar placeholder-avatar">
+                <span>AI</span>
+              </div>
+              <div class="author-details">
+                <h4 class="author-name">[Academic Supervisor Placeholder]</h4>
+                <span class="author-role">Faculty of Computers &amp; Information</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: NTI Instructor Placeholder -->
+          <div class="testimonial-card reveal-up" data-delay="200">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+            </div>
+
+            <div class="rating-stars" aria-label="5 out of 5 stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+
+            <p class="testimonial-quote">
+              "A proactive participant in the AI for Business training program at NTI. Shows genuine enthusiasm for understanding both the algorithmic foundations and the practical business value of predictive models."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar placeholder-avatar">
+                <span>NT</span>
+              </div>
+              <div class="author-details">
+                <h4 class="author-name">[NTI Program Instructor Placeholder]</h4>
+                <span class="author-role">National Telecommunication Institute</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Peer / Collaborator Placeholder -->
+          <div class="testimonial-card reveal-up" data-delay="300">
+            <div class="testimonial-quote-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+              </svg>
+            </div>
+
+            <div class="rating-stars" aria-label="5 out of 5 stars">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+            </div>
+
+            <p class="testimonial-quote">
+              "Collaborating with Ahmed on system analysis and algorithmic challenges is always inspiring. He approaches complex problems methodically and communicates solutions with clarity and structure."
+            </p>
+
+            <div class="testimonial-author">
+              <div class="author-avatar placeholder-avatar">
+                <span>CP</span>
+              </div>
+              <div class="author-details">
+                <h4 class="author-name">[Project Collaborator Placeholder]</h4>
+                <span class="author-role">Computer Science Peer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback-disclaimer text-center">
+          <small class="disclaimer-text">
+            * Note: Testimonial cards are design placeholders ready to be updated with authentic recommendations.
+          </small>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         8. SERVICES SECTION
+         ============================================== -->
+    <section id="services" class="services-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">What I Can Offer</span>
+          <h2 class="section-title">Knowledge &amp; Services</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            Core technical proficiencies and learning capabilities appropriate for collaborative academic and business projects.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: C++ Programming -->
+          <div class="service-card reveal-up" data-delay="100">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">C++ Programming</h3>
+            <ul class="service-points">
+              <li>Object-oriented programming fundamentals.</li>
+              <li>Basic programming problem-solving.</li>
+            </ul>
+          </div>
+
+          <!-- Service 2: Data Structures -->
+          <div class="service-card reveal-up" data-delay="150">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="6" y1="3" x2="6" y2="15"></line>
+                <circle cx="18" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <path d="M18 9a9 9 0 0 1-9 9"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Data Structures</h3>
+            <ul class="service-points">
+              <li>Understanding and implementing fundamental data structures.</li>
+            </ul>
+          </div>
+
+          <!-- Service 3: Computer Graphics -->
+          <div class="service-card reveal-up" data-delay="200">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+                <polyline points="2 12 12 17 22 12"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Computer Graphics</h3>
+            <ul class="service-points">
+              <li>Computer graphics fundamentals and concepts.</li>
+            </ul>
+          </div>
+
+          <!-- Service 4: Python Programming -->
+          <div class="service-card reveal-up" data-delay="250">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 17l6-6-6-6"></path>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Python Programming</h3>
+            <ul class="service-points">
+              <li>Python programming and data manipulation fundamentals.</li>
+            </ul>
+          </div>
+
+          <!-- Service 5: AI for Business -->
+          <div class="service-card reveal-up" data-delay="300">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                <path d="M8 21h8"></path>
+                <path d="M12 17v4"></path>
+                <path d="m7 10 3 3 7-7"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">AI for Business</h3>
+            <ul class="service-points">
+              <li>Understanding AI applications in business environments.</li>
+            </ul>
+          </div>
+
+          <!-- Service 6: Machine Learning -->
+          <div class="service-card reveal-up" data-delay="350">
+            <div class="service-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Machine Learning</h3>
+            <ul class="service-points">
+              <li>Exploring machine learning algorithms and predictive models.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         9. GET IN TOUCH SECTION
+         ============================================== -->
+    <section id="contact" class="contact-section section">
+      <div class="container">
+        <div class="section-header text-center reveal-up">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-line"></div>
+          <p class="section-subtitle">
+            I'm always interested in connecting with people, learning new technologies, and exploring opportunities to collaborate on interesting projects.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Cards & Social Info -->
+          <div class="contact-info-column reveal-left">
+            <h3 class="contact-column-title">Reach Out Directly</h3>
+            <p class="contact-text">
+              Whether you have an inquiry about my training, want to discuss an AI for Business challenge, or would like to collaborate on an academic project, feel free to connect!
+            </p>
+
+            <div class="contact-cards-list">
+              <!-- LinkedIn Card -->
+              <a href="https://www.linkedin.com/in/ahmedyasserrai/details/skills/" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                <div class="contact-icon linkedin-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="meta-label">LinkedIn</span>
+                  <span class="meta-value">linkedin.com/in/ahmedyasserrai</span>
+                </div>
+                <div class="contact-arrow" aria-hidden="true">&rarr;</div>
+              </a>
+
+              <!-- GitHub Card -->
+              <a href="https://github.com/sonic2005-coder" target="_blank" rel="noopener noreferrer" class="contact-method-card">
+                <div class="contact-icon github-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="meta-label">GitHub</span>
+                  <span class="meta-value">github.com/sonic2005-coder</span>
+                </div>
+                <div class="contact-arrow" aria-hidden="true">&rarr;</div>
+              </a>
+
+              <!-- Email Card (Mailto link placeholder) -->
+              <!-- Replace contact-placeholder@ahmedyasser.dev with your actual email address -->
+              <a href="mailto:contact-placeholder@ahmedyasser.dev?subject=Inquiry%20from%20Portfolio" class="contact-method-card" title="Click to email (Replace placeholder in HTML)">
+                <div class="contact-icon email-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="meta-label">Email Placeholder</span>
+                  <span class="meta-value">contact-placeholder@ahmedyasser.dev</span>
+                  <span class="meta-tip">[Replace with your email address]</span>
+                </div>
+                <div class="contact-arrow" aria-hidden="true">&rarr;</div>
+              </a>
+
+              <!-- Location Card -->
+              <div class="contact-method-card non-clickable">
+                <div class="contact-icon location-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <span class="meta-label">Location</span>
+                  <span class="meta-value">Zagazig, Egypt &bull; Zagazig University</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-column reveal-right">
+            <div class="contact-form-card">
+              <h3 class="form-title">Send a Message</h3>
+              <p class="form-desc">
+                Fill in the details below. Form fields validate in real-time.
+              </p>
+
+              <form id="contactForm" class="contact-form" novalidate>
+                <!-- Name Field -->
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Full Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="text" 
+                      id="contactName" 
+                      name="name" 
+                      class="form-input" 
+                      placeholder="e.g. Sarah Jenkins" 
+                      required 
+                      minlength="2"
+                      maxlength="60"
+                      autocomplete="name"
+                    >
+                    <span class="input-status-icon" aria-hidden="true"></span>
+                  </div>
+                  <span class="form-error" id="nameError">Please enter your name (at least 2 characters).</span>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Email Address <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="email" 
+                      id="contactEmail" 
+                      name="email" 
+                      class="form-input" 
+                      placeholder="e.g. sarah@example.com" 
+                      required 
+                      autocomplete="email"
+                    >
+                    <span class="input-status-icon" aria-hidden="true"></span>
+                  </div>
+                  <span class="form-error" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <!-- Subject Field -->
+                <div class="form-group">
+                  <label for="contactSubject" class="form-label">Subject <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <input 
+                      type="text" 
+                      id="contactSubject" 
+                      name="subject" 
+                      class="form-input" 
+                      placeholder="e.g. AI for Business Collaboration" 
+                      required 
+                      minlength="3"
+                      maxlength="100"
+                    >
+                    <span class="input-status-icon" aria-hidden="true"></span>
+                  </div>
+                  <span class="form-error" id="subjectError">Please provide a subject line.</span>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group">
+                  <label for="contactMessage" class="form-label">Message <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <textarea 
+                      id="contactMessage" 
+                      name="message" 
+                      rows="4" 
+                      class="form-input form-textarea" 
+                      placeholder="Write your message here..." 
+                      required
+                      minlength="10"
+                      maxlength="1500"
+                    ></textarea>
+                    <span class="input-status-icon" aria-hidden="true"></span>
+                  </div>
+                  <span class="form-error" id="messageError">Please enter a message (at least 10 characters).</span>
+                </div>
+
+                <!-- Form Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">
+                  <span>Send Message</span>
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+
+              <!-- Client-side notification alert container -->
+              <div class="form-notice" id="formNotice" role="alert" aria-live="polite" style="display: none;">
+                <div class="notice-icon" id="noticeIcon"></div>
+                <div class="notice-content">
+                  <h4 class="notice-title" id="noticeTitle"></h4>
+                  <p class="notice-desc" id="noticeDesc"></p>
+                  <div class="notice-actions" id="noticeActions" style="display: none;">
+                    <a href="#" id="mailtoFallbackLink" class="btn btn-primary btn-sm">Open in Mail Client</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo">
+            <span class="brand-bracket">&lt;</span>
+            <span class="brand-text">Ahmed<span class="brand-highlight">.Y</span></span>
+            <span class="brand-bracket">/&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            Computer Science Student &bull; AI for Business Enthusiast &bull; Zagazig University
+          </p>
+        </div>
+
+        <div class="footer-social-links">
+          <a href="https://www.linkedin.com/in/ahmedyasserrai/details/skills/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn Profile">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/sonic2005-coder" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="GitHub Profile">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; <span id="currentYear">2026</span> Ahmed Yasser. All rights reserved.
+        </p>
+        <p class="footer-tech-stack">
+          Crafted with Semantic HTML5, Modern CSS3 &amp; Vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+
